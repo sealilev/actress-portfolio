@@ -540,9 +540,9 @@ body {
     .photo-gallery {
         padding: 2rem 1rem 1rem 1rem;
     }
-    
+
     .about-content {
-        gap: 1.5rem;  /* הוספה - צמצום רווח בין הפסקאות */
+        gap: 1rem;  /* הוספה - צמצום רווח בין הפסקאות */
     }
 }
 
