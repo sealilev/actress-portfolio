@@ -139,6 +139,13 @@ body {
     position: relative;
     padding: 2rem;
     text-align: center;
+    @media (max-width: 768px) {
+        .hero {
+            min-height: 60vh;  /* הוספה */
+            padding: 1rem;     /* הוספה */
+        }
+    }
+
 }
 
 .hero::before {
@@ -197,7 +204,8 @@ body {
     margin: 0 auto;
     line-height: 1.8;
     animation: fadeIn 1s ease-out 1.2s both;
-    white-space: nowrap;
+    white-space: normal;
+    padding: 0 1rem;
 }
 .hero-btn-small {
     display: inline-block;
