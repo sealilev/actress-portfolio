@@ -541,9 +541,6 @@ body {
         padding: 2rem 1rem 1rem 1rem;
     }
 
-    .about-content {
-        gap: 0.5rem;  /* הוספה - צמצום רווח בין הפסקאות */
-    }
 }
 
 /* Responsive Design */
@@ -556,6 +553,7 @@ body {
 @media (max-width: 968px) {
     .about-content {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
     
     .work-item,
