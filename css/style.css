@@ -469,6 +469,8 @@ body {
     .gallery-photo {
         flex: 0 0 85%;
         scroll-snap-align: center;
+        height: 300px;  /* הוספה */
+
     }
     
     .hero {
